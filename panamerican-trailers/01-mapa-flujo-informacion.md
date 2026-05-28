@@ -32,6 +32,8 @@ trabajo vendido). Hoy ese hilo conductor no existe de forma única, y por eso ca
 | **Comercial / Ventas** | Cliente, requerimientos/especificación, cotización, pedido en firme, anticipo acordado | Costo estimado y tiempo de fabricación (Producción), condiciones de pago (Finanzas) |
 | **Producción (incl. Diseño/Ingeniería)** | Diseño y planos, lista de materiales (BOM), cronograma, avance real, consumo real, control de calidad | Especificación cerrada (Ventas), materiales a tiempo (Compras), personal/horas (RRHH) |
 | **Compras / Importación** | Órdenes de compra, costo real de materiales, fechas de importación/aduana, inventario de materiales | Lista de materiales y prioridades (Producción), aprobación de pago (Finanzas) |
+| **Logística / Exportación** | Documentación de exportación, booking/embarque, tracking, costos logísticos reales (flete, seguro, agente) | Aviso de producto terminado (Producción), datos del cliente e Incoterm (Ventas), aprobación de pago a forwarder (Finanzas) |
+| **Servicio al Cliente / Postventa** | Tickets/reclamos del cliente, historial de atención, garantías, satisfacción y feedback recurrente | Datos del proyecto vendido (Ventas), diagnóstico técnico (Producción/Ingeniería), repuestos (Compras) |
 | **Finanzas / Contabilidad / Admin** | Facturación, cobranza, pagos, costo real del proyecto, rentabilidad, flujo de caja | Costos reales de TODAS las áreas (materiales, mano de obra, logística) |
 | **Recursos Humanos** | Personal, asistencia/horas, asignación a proyectos, nómina | Necesidades de personal por proyecto (Producción) |
 | **Gerencia / CEO** | Decisiones, prioridades estratégicas | Tablero consolidado de TODAS las áreas |

@@ -215,6 +215,73 @@ AREA 7: GERENCIA / CEO  (entrevista contigo + el CEO)
 
 
 ==============================================================================
+AREA 8: SERVICIO AL CLIENTE / POSTVENTA
+(Critico en empresa exportadora: cliente lejos, soporte a distancia,
+ la reputacion viaja por resenas)
+==============================================================================
+89. Como entra una solicitud del cliente (correo, WhatsApp, telefono,
+    formulario web, ticket)? Donde se registra?
+90. Que tipos de solicitudes manejas (consulta de estado, reclamo, garantia,
+    repuesto, soporte tecnico, capacitacion)? % aproximado de cada uno?
+91. Como atiendes clientes en el extranjero (idioma, zona horaria, soporte
+    remoto, viajes tecnicos)?
+92. Cual es tu SLA de respuesta y de resolucion? Se mide o solo se siente?
+93. Cuando una solicitud requiere a otra area (Produccion, Ingenieria,
+    Ventas, Repuestos), como escalas y como sabes que se atendio?
+94. Garantia: que cubre, por cuanto tiempo, como se documenta el alcance al
+    cerrar la venta? El cliente recibe constancia escrita?
+95. En un reclamo de garantia: como se diagnostica a distancia (fotos,
+    video, manual)? Quien decide si procede? Como se cubren los costos
+    (envio de repuesto, viaje tecnico)?
+96. Repuestos: existe catalogo? Como se cotiza, factura y envia al exterior?
+    Hay stock o se manda fabricar?
+97. Hay un canal formal para que los reclamos recurrentes (defectos que se
+    repiten) lleguen a Produccion/Ingenieria y se corrija el diseno o
+    proceso?
+98. Como se mide la satisfaccion del cliente (encuestas, resenas, NPS,
+    nada)?
+99. Que herramienta usas para gestionar tickets/solicitudes (helpdesk, CRM,
+    Excel, solo correo)?
+100. Cuando un cliente llama, que informacion del proyecto necesitas tener
+     a la mano (specs, planos, lote, fecha de entrega, garantia vigente)?
+     La tienes facil o la buscas?
+
+
+==============================================================================
+AREA 9: LOGISTICA / EXPORTACION
+(Donde el proyecto se convierte en dinero entregado: un error aqui cuesta
+ multas, demoras y reclamos del cliente final)
+==============================================================================
+101. Como te enteras de que un proyecto esta listo para embarcar? Quien te
+     avisa y con cuanta antelacion?
+102. Que documentos de exportacion preparas (factura comercial, packing
+     list, certificado de origen, BL/AWB, certificado sanitario si aplica)?
+     Quien los genera y quien los firma?
+103. Que Incoterm se usa por defecto (FOB, CIF, DAP, etc.)? Varia por
+     cliente/destino?
+104. Como se elige al agente de carga / forwarder / naviera? Hay maestro de
+     proveedores logisticos?
+105. Como se coordinan los tiempos: fecha disponible en planta vs fecha de
+     booking/zarpe?
+106. Que pasa si el producto no llega a tiempo al puerto (booking perdido,
+     multas, reprogramacion)?
+107. Empaque para exportacion: como se prepara (madera tratada IPPC,
+     trincado dentro del contenedor, flat-rack si excede medidas,
+     fumigacion)? Quien lo hace, planta o un tercero?
+108. Aduana de exportacion: como se gestiona? Hay agente aduanal? Cuanto
+     tarda?
+109. Seguros de carga: quien los contrata y como se documentan?
+110. Como se hace el tracking del embarque y como se informa al cliente la
+     fecha estimada de llegada?
+111. Como entra el costo real de logistica (flete, seguro, agente, aduana)
+     a Finanzas para cerrar el costo del proyecto?
+112. Danos o incidentes en transito: con que frecuencia? Como se reclama al
+     seguro o naviera?
+113. Que herramienta/sistema usas (Excel, modulo del ERP, plataforma de la
+     naviera, correo)?
+
+
+==============================================================================
 DESPUES DE CADA ENTREVISTA - ANOTAR RAPIDO
 ==============================================================================
 AREA: ______________  ENTREVISTADO: ______________  FECHA: __________

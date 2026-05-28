@@ -157,7 +157,48 @@ se lo pasas (sistema/Excel/correo/WhatsApp/papel)?*
 
 ---
 
-## 8. Gerencia / CEO (entrevista contigo + el CEO)
+## 8. Servicio al Cliente / Postventa
+
+> Crítico en una empresa exportadora: el cliente está lejos, los problemas se
+> resuelven a distancia y la reputación viaja por reseñas y recomendaciones.
+
+- ¿Cómo entra una solicitud del cliente? (correo, WhatsApp, teléfono, formulario web, ticket) ¿Dónde se registra?
+- ¿Qué tipos de solicitudes manejas? (consulta de estado, reclamo, garantía, repuesto, soporte técnico, capacitación) ¿% aproximado de cada uno?
+- ¿Cómo atiendes clientes en el extranjero? (idioma, zona horaria, soporte remoto, viajes técnicos)
+- ¿Cuál es tu SLA de respuesta y de resolución? ¿Se mide o solo se siente?
+- Cuando una solicitud requiere a otra área (Producción, Ingeniería, Ventas, Repuestos), ¿cómo escalas y cómo sabes que efectivamente se atendió?
+- **Garantía:** ¿qué cubre, por cuánto tiempo, cómo se documenta el alcance al cerrar la venta? ¿El cliente recibe constancia escrita?
+- En un **reclamo de garantía**: ¿cómo se diagnostica a distancia (fotos, video, manual)? ¿Quién decide si procede? ¿Cómo se cubren los costos (envío de repuesto, viaje técnico)?
+- **Repuestos:** ¿existe catálogo? ¿Cómo se cotiza, factura y envía al exterior? ¿Hay stock o se manda fabricar?
+- ¿Hay un canal formal para que los **reclamos recurrentes** (defectos que se repiten) lleguen de vuelta a Producción/Ingeniería y se corrija el diseño/proceso? (loop de mejora)
+- ¿Cómo se mide la satisfacción del cliente? (encuestas, reseñas, NPS, nada)
+- ¿Qué herramienta usas para gestionar tickets/solicitudes? (helpdesk, CRM, Excel, solo correo)
+- Cuando un cliente llama, ¿qué información del proyecto necesitas tener a la mano (specs, planos, lote, fecha de entrega, garantía vigente)? ¿La tienes fácil o la buscas?
+
+---
+
+## 9. Logística / Exportación
+
+> En una empresa exportadora, es donde el proyecto "se convierte en dinero
+> entregado". Un error aquí cuesta multas, demoras y reclamos del cliente final.
+
+- ¿Cómo te enteras de que un proyecto está listo para embarcar? ¿Quién te avisa y con cuánta antelación?
+- ¿Qué documentos de exportación preparas? (factura comercial, packing list, certificado de origen, BL/AWB, certificado sanitario si aplica) ¿Quién los genera y quién los firma?
+- ¿Qué **Incoterm** se usa por defecto (FOB, CIF, DAP, etc.)? ¿Varía por cliente/destino?
+- ¿Cómo se elige al agente de carga / forwarder / naviera? ¿Hay maestro de proveedores logísticos?
+- ¿Cómo se coordinan los tiempos: fecha disponible en planta vs. fecha de booking/zarpe?
+- ¿Qué pasa si el producto no llega a tiempo al puerto? (booking perdido, multas, reprogramación)
+- **Empaque para exportación:** ¿cómo se prepara? (madera tratada IPPC, trincado dentro del contenedor, flat-rack si excede medidas, fumigación) ¿Quién lo hace, planta o un tercero?
+- **Aduana de exportación:** ¿cómo se gestiona? ¿Hay agente aduanal? ¿Cuánto tarda?
+- **Seguros de carga:** ¿quién los contrata y cómo se documentan?
+- ¿Cómo se hace el **tracking** del embarque y cómo se informa al cliente la fecha estimada de llegada?
+- ¿Cómo entra el **costo real de logística** (flete, seguro, agente, aduana) a Finanzas para cerrar el costo del proyecto?
+- **Daños o incidentes en tránsito:** ¿con qué frecuencia? ¿Cómo se reclama al seguro o naviera?
+- ¿Qué herramienta/sistema usas? (Excel, módulo del ERP, plataforma de la naviera, correo)
+
+---
+
+## 10. Gerencia / CEO (entrevista contigo + el CEO)
 
 - ¿Cuáles son los **5 números** que el CEO quiere ver TODOS los días? ¿Y semanal/mensual?
 - ¿Qué decisión importante se ha tomado tarde o mal por falta de información?
@@ -168,7 +209,7 @@ se lo pasas (sistema/Excel/correo/WhatsApp/papel)?*
 
 ---
 
-## 9. Plantilla de Ficha de Relevamiento (llenar 1 por área)
+## 11. Plantilla de Ficha de Relevamiento (llenar 1 por área)
 
 ```
 ÁREA: ______________________   RESPONSABLE: ______________   FECHA: ________
@@ -203,7 +244,7 @@ PEDIDO MÁGICO (1 cambio que más ayudaría): _____________________________
 
 ---
 
-## 10. Inventario de Sistemas (llenar de forma transversal)
+## 12. Inventario de Sistemas (llenar de forma transversal)
 
 | Sistema / Archivo | Área(s) que lo usa | ¿Qué dato vive ahí? | ¿Oficial o paralelo? | ¿Se conecta con otro? |
 |---|---|---|---|---|
@@ -217,7 +258,7 @@ PEDIDO MÁGICO (1 cambio que más ayudaría): _____________________________
 
 ---
 
-## 11. Checklist de documentos a recolectar (pedir copia real, sin datos sensibles si aplica)
+## 13. Checklist de documentos a recolectar (pedir copia real, sin datos sensibles si aplica)
 
 - [ ] Formato de levantamiento de especificación (Ventas)
 - [ ] Plantilla de cotización
@@ -225,13 +266,17 @@ PEDIDO MÁGICO (1 cambio que más ayudaría): _____________________________
 - [ ] Orden de producción / orden de trabajo
 - [ ] Orden de compra y documentos de importación
 - [ ] Checklist de control de calidad
-- [ ] Factura y documentos de exportación
+- [ ] Factura y documentos de exportación (factura comercial, packing list, certificado de origen, BL/AWB)
+- [ ] Formato de garantía y/o certificado entregado al cliente
+- [ ] Ticket/registro de un reclamo postventa real (Servicio al Cliente)
+- [ ] Catálogo o lista de repuestos (si existe)
+- [ ] Booking/contrato con forwarder o naviera (Logística)
 - [ ] Reportes que hoy recibe gerencia
 - [ ] Cualquier Excel "maestro" que cada área use a diario
 
 ---
 
-## 12. Matriz de Handoffs (consolidar al final del relevamiento)
+## 14. Matriz de Handoffs (consolidar al final del relevamiento)
 
 > Se llena cruzando lo que cada área DICE que entrega vs. lo que la siguiente DICE
 > que recibe. Cada desajuste detectado = oportunidad concreta de automatización.
@@ -243,6 +288,12 @@ PEDIDO MÁGICO (1 cambio que más ayudaría): _____________________________
 | Ingeniería → Producción | Planos/ruta | | | |
 | Compras → Producción | Materiales/avisos | | | |
 | Producción → Ventas | Avance del pedido | | | |
+| Producción → Logística | Aviso de producto terminado | | | |
+| Ventas → Logística | Cliente, Incoterm, destino | | | |
+| Logística → Finanzas | Documentos de export. y costos logísticos | | | |
+| Ventas → Servicio al Cliente | Garantía, specs, datos del cliente | | | |
+| Servicio al Cliente → Producción/Ingeniería | Reclamos recurrentes (feedback) | | | |
+| Servicio al Cliente → Compras | Solicitud de repuestos | | | |
 | RRHH → Finanzas | Horas/nómina | | | |
 | Todas → Finanzas | Costos reales | | | |
 | Todas → Gerencia | Estado/indicadores | | | |
