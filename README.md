@@ -1,279 +1,405 @@
-![Alt Hi. I'm @rUv](https://github.com/ruvnet/ruvnet/blob/main/assets/pp.png?raw=true)
+<div align="center">
 
-Hi. I'm @rUv
+[![Ruflo Banner](ruflo/assets/ruflo-small.jpeg)](https://flo.ruv.io/)
 
-# Why I started this GitHub Repository. 
+[![Try the UI Beta — flo.ruv.io](https://img.shields.io/badge/_Try_the_UI_Beta-flo.ruv.io-6366f1?style=for-the-badge&logoColor=white&logo=svelte)](https://flo.ruv.io/)
+[![Goal Planner — goal.ruv.io](https://img.shields.io/badge/_Goal_Planner-goal.ruv.io-8b5cf6?style=for-the-badge&logoColor=white&logo=react)](https://goal.ruv.io/)
+[![Live Agents — goal.ruv.io/agents](https://img.shields.io/badge/_Live_Agents-goal.ruv.io%2Fagents-10b981?style=for-the-badge&logoColor=white&logo=react)](https://goal.ruv.io/agents)
 
+[![Star on GitHub](https://img.shields.io/github/stars/ruvnet/claude-flow?style=for-the-badge&logo=github&color=gold)](https://github.com/ruvnet/claude-flow)
+[![MIT License](https://img.shields.io/badge/License-MIT-yellow?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Claude Code](https://img.shields.io/badge/Claude%20Code-Plugin-D97757?style=for-the-badge&logoColor=white&logo=anthropic)](https://github.com/ruvnet/claude-flow)
+[![Codex Plugin](https://img.shields.io/badge/Codex-Plugin-412991?style=for-the-badge&logoColor=white&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0yMi4yODIgOS44MjFhNS45ODUgNS45ODUgMCAwIDAtLjUxNi00LjkxIDYuMDQ2IDYuMDQ2IDAgMCAwLTYuNTEtMi45QTYuMDY1IDYuMDY1IDAgMCAwIDQuOTgxIDQuMThhNS45ODUgNS45ODUgMCAwIDAtMy45OTggMi45IDYuMDQ2IDYuMDQ2IDAgMCAwIC43NDMgNy4wOTcgNS45OCA1Ljk4IDAgMCAwIC41MSA0LjkxMSA2LjA1MSA2LjA1MSAwIDAgMCA2LjUxNSAyLjlBNS45ODUgNS45ODUgMCAwIDAgMTMuMjYgMjRhNi4wNTYgNi4wNTYgMCAwIDAgNS43NzItNC4yMDYgNS45OSA1Ljk5IDAgMCAwIDMuOTk4LTIuOSA2LjA1NiA2LjA1NiAwIDAgMC0uNzQ3LTcuMDczek0xMy4yNiAyMi40M2E0LjQ3NiA0LjQ3NiAwIDAgMS0yLjg3Ni0xLjA0bC4xNDItLjA4IDQuNzc4LTIuNzU4YS43OTUuNzk1IDAgMCAwIC4zOTMtLjY4MXYtNi43MzdsMi4wMiAxLjE2OGEuMDcxLjA3MSAwIDAgMSAuMDM4LjA1MnY1LjU4M2E0LjUwNCA0LjUwNCAwIDAgMS00LjQ5NSA0LjQ5NHpNMy42IDE4LjMwNGE0LjQ3IDQuNDcgMCAwIDEtLjUzNS0zLjAxNGwuMTQyLjA4NSA0Ljc4MyAyLjc1OWEuNzcxLjc3MSAwIDAgMCAuNzgxIDBsNS44NDMtMy4zNjl2Mi4zMzJhLjA4LjA4IDAgMCAxLS4wMzMuMDYyTDkuNzQgMTkuOTVhNC41IDQuNSAwIDAgMS02LjE0LTEuNjQ2ek0yLjM0IDcuODk2YTQuNDg1IDQuNDg1IDAgMCAxIDIuMzY2LTEuOTczVjExLjZhLjc2Ni43NjYgMCAwIDAgLjM4OC42NzdsNS44MTUgMy4zNTQtMi4wMiAxLjE2OGEuMDc2LjA3NiAwIDAgMS0uMDcyIDBsLTQuODMtMi43ODZBNC41MDQgNC41MDQgMCAwIDEgMi4zNCA3Ljg3MnptMTYuNTk3IDMuODU1LTUuODMzLTMuMzg3IDIuMDE2LTEuMTY1YS4wNzYuMDc2IDAgMCAxIC4wNzEgMGw0LjgzIDIuNzkxYTQuNDk0IDQuNDk0IDAgMCAxLS42NzYgOC4xMDR2LTUuNjc3YS43OS43OSAwIDAgMC0uNDA3LS42Njd6bTIuMDEtMy4wMjMtLjE0MS0uMDg1LTQuNzc0LTIuNzgyYS43NzYuNzc2IDAgMCAwLS43ODUgMEw5LjQwOSA5LjIzVjYuODk3YS4wNjYuMDY2IDAgMCAxIC4wMjgtLjA2Mmw0LjgzLTIuNzg3YTQuNDk5IDQuNDk5IDAgMCAxIDYuNjggNC42NnpNOC4zMDcgMTIuODYzbC0yLjAyLTEuMTY0YS4wOC4wOCAwIDAgMS0uMDM4LS4wNTdWNi4wNzRhNC40OTkgNC40OTkgMCAwIDEgNy4zNzYtMy40NTRsLS4xNDIuMDgtNC43NzggMi43NThhLjc5NS43OTUgMCAwIDAtLjM5My42ODJ6bTEuMDk3LTIuMzY2IDIuNjAyLTEuNSAyLjYwNyAxLjV2Mi45OTlsLTIuNTk3IDEuNS0yLjYwNy0xLjVaIi8%2BPC9zdmc%2B)](https://www.npmjs.com/package/@claude-flow/codex)
+[![🕸️ RuVector Graph Ai](https://img.shields.io/badge/RuVector_Agentic-DB-06b6d4?style=for-the-badge&logoColor=white&logo=graphql)](https://github.com/ruvnet/ruvector)
 
-One of the strange advantages of building everything in public is the sheer weight of my “prior art” portfolio. 
+[![ruFlo Summit — Budapest, June 2–3, 2026](v3/docs/assets/ruFlo-Summit.jpg)](https://github.com/ruvnet/ruflo/issues/1967)
 
-When you step back and look at my GitHub, it is essentially a giant archive (millions of lines deep) of crazy experiments, many becoming a thing years later. 
+# Ruflo
 
-Some polished, some rough, some half baked but functional, at least for me anyway. What matters is that they exist, they ran, and they were shared. 
+**Multi-agent AI orchestration for Claude Code**
 
-Publicly before most other had even thought about Agents or Swarms.. 
+</div>
 
-Since 2021 I have been pushing ideas into the open as fast as I can think of them. Swarm orchestration, agentic memory, self learning vector databases, GNN layers inside the data store, dynamic mincut as a structural signal, proof gated mutations, edge cognition, neural meshes, chip architectures. 
+Orchestrate 100+ specialized AI agents across machines, teams, and trust boundaries. Ruflo adds coordinated swarms, self-learning memory, federated comms, and enterprise security to Claude Code — so agents don't just run, they collaborate.
 
-Many of these ideas appeared in my repos years before the industry began talking about them seriously. 
+### Why Ruflo?
 
-Patent lawyers have an almost comical reaction when they look at the repo graph. 
+> Claude Flow is now Ruflo — named by [`rUv`](https://ruv.io), who loves Rust, flow states, and building things that feel inevitable. The "Ru" is the rUv. The "flo" is working until 3am. Underneath, powered by [`Cognitum.One`](https://cognitum.one/?RuFlo) agentic architecture, running a supercharged Rust based AI engine, embeddings, memory, and plugin system.
 
-Millions of downloads every month. Every country. Thousands of monthly commits. Thousands of libraries connected to the same central conceptual stack. Every new project integrates the previous creating a chain of creation. 
 
-The typical patent lawyer’s first reaction is utter confusion. Their second is realization that the prior art surface area is enormous. Bigger than most F500 combined. Uniquely focused on Agentic Ai.  
+### What Ruflo Does
 
-Like it or not, anyone filling an agentic patent has to deal with me. 
+One `npx ruvflo init` gives Claude Code a nervous system: agents self-organize into swarms, learn from every task, remember across sessions, and — with federation — securely talk to agents on other machines without leaking data. You keep writing code. Ruflo handles the coordination.
 
-Which seems to upsetting a lot folks. Am I fraud? Well, the code is there, the users and ultimately that’s all that matters to me.
+```
+Self-Learning / Self-Optimizing Agent Architecture
 
-I sometimes joke Edison filed a thousand patents across his entire career. I tend to drop the equivalent of that volume in a weekend. Just because I could.
+User --> Ruflo (CLI/MCP) --> Router --> Swarm --> Agents --> Memory --> LLM Providers
+                          ^                           |
+                          +---- Learning Loop <-------+
+```
 
-Not because I am trying to patent everything. The opposite. The strategy is simple. Publish first. Free for all. 
+> **New to Ruflo?** You don't need to learn 314 MCP tools or 26 CLI commands. After `init`, just use Claude Code normally -- the hooks system automatically routes tasks, learns from successful patterns, and coordinates agents in the background.
 
-Long live ❤️ Open Source.
+---
 
---
-## My projects represent this space, a space of infinite possibilities only one step removed from reality. 
+![Ruflo Plugins](./ruflo-plugins.gif)
 
-# AI Frameworks and Libraries
+## Quick Start
 
-Core frameworks and libraries for building AI-powered applications and intelligent systems.
+There are **two different install paths** with very different surface areas. Pick based on what you need (#1744):
 
-| Project/Description | GitHub |
-| --- | --- |
-| 🚀 **Claude-Flow** - The leading agent orchestration platform for Claude. Deploy intelligent multi-agent swarms, coordinate autonomous workflows, and build conversational AI systems. Features enterprise-grade architecture with multi-cloud support | [Link](https://github.com/ruvnet/claude-flow) |
-| 🔐 **Agent Name Service (ANS)** - Secure registry for AI agents based on OWASP GenAI Security Project's ANS Protocol for agent discovery and interaction | [Link](https://github.com/ruvnet/Agent-Name-Service) |
-| 🛠️ **Agile Agents (A2)** - Open-source framework for serverless intelligent agents with multi-cloud support | [Link](https://github.com/ruvnet/agileagents) |
-| 🧠 **AgenticsJS** - Intelligent search library with real-time results, visualization, and plugins | [Link](https://github.com/ruvnet/agenticsjs) |
-| 🌊 **Agentic Diffusion** - Advanced diffusion-based generative framework for code generation and agentic planning through self-evolving models | [Link](https://github.com/ruvnet/agentic-difusion) |
-| 🚀 **DSPy.ts** - Browser-based AI framework for JavaScript and TypeScript developers to run models directly in users' browsers | [Link](https://github.com/ruvnet/dspy.ts) |
-| ⚡ **Dynamo MCP** - Discover, manage, and generate projects with cookiecutter templates via MCP | [Link](https://github.com/ruvnet/dynamo-mcp) |
-| ⚡ **FACT: Fast Augmented Context Tools** - Revolutionary LLM data retrieval replacing RAG with prompt caching and deterministic MCP tool execution | [Link](https://github.com/ruvnet/FACT) |
-| 🌐 **Federated MCP** - Distributed runtime system for federated AI services with edge computing capabilities following the Model Context Protocol | [Link](https://github.com/ruvnet/federated-mcp) |
-| 🛡️ **GuardRail Data Analysis System** - API-driven framework designed to enhance AI systems and analysis workflows | [Link](https://github.com/ruvnet/guardrail) |
-| 🌊 **MidStream** - Real-time LLM streaming platform with inflight data analysis and dynamic tool integration built in Rust | [Link](https://github.com/ruvnet/midstream) |
-| 🧠 **NOVA** - Neuro-symbolic Optimized Versatile Agent for knowledge distillation and compact model training | [Link](https://github.com/ruvnet/nova) |
-| 🔧 **ONNX-Agent** - Unified pipeline for training, optimizing, and deploying ONNX models with test-time compute methods | [Link](https://github.com/ruvnet/onnx-agent) |
-| 🧠 **Pygentic** - Enhances the capabilities of AI assistants by providing a flexible and standardized API | [Link](https://github.com/ruvnet/pygentic) |
-| 🧠 **SAFLA** - Production-ready autonomous AI system with hybrid memory, meta-cognitive reasoning, MCP integration, and comprehensive safety validation | [Link](https://github.com/ruvnet/SAFLA) |
-| 📐 **SPARC** - Comprehensive methodology for robust and scalable application development: Specification, Pseudocode, Architecture, Refinement | [Link](https://github.com/ruvnet/sparc) |
-| 🔊 **Ultrasonic Agentics** - Secure steganographic framework for embedding invisible AI commands and data in audio and video | [Link](https://github.com/ruvnet/ultrasonic) |
-| 📡 **WiFi-DensePose** - Privacy-first human pose estimation using WiFi CSI data with real-time multi-person tracking and enterprise-ready API | [Link](https://github.com/ruvnet/wifi-densepose) |
+| | **Claude Code Plugin** | **CLI install (`npx ruflo init`)** |
+|---|---|---|
+| What it gives you | Slash commands + a few skills + agent definitions per-plugin | Full Ruflo loop — 98 agents, 60+ commands, 30 skills, MCP server, hooks, daemon |
+| Files in your workspace | **Zero** | `.claude/`, `.claude-flow/`, `CLAUDE.md`, helpers, settings |
+| MCP server registered | **No** (`memory_store`, `swarm_init`, etc. unavailable to Claude) | Yes |
+| Hooks installed | No | Yes |
+| Best for | Try a single plugin's commands without committing to the full install | Production use — everything works as documented |
 
-# Agentic Systems and Automation
+### Path A — Claude Code Plugins (lite, slash commands only)
 
-Projects focused on intelligent agent systems, automation, and autonomous operations.
+```bash
+# Add the marketplace
+/plugin marketplace add ruvnet/ruflo
 
-## Core Agent Frameworks
+# Install core + any plugins you need
+/plugin install ruflo-core@ruflo
+/plugin install ruflo-swarm@ruflo
+/plugin install ruflo-autopilot@ruflo
+/plugin install ruflo-federation@ruflo
+```
 
-| Project/Description | GitHub |
-| --- | --- |
-| 🤖 **Agent Algorithm Repository** - Comprehensive repository for algorithms designed for intelligent agents | [Link](https://gist.github.com/ruvnet/beaf2435053b78c68bf9460976720447) |
-| 🪰 **Agentic Employment Framework** - Manage an adaptive network of autonomous agents | [Link](https://github.com/ruvnet/agentic-employment) |
-| 🤖 **Agentic Search** - GitHub Copilot Extension with AI-powered code suggestions, intelligent automation, and streamlined project management | [Link](https://github.com/ruvnet/agentic-search) |
-| 🤖 **Agentic-algorithms** - Advanced algorithms implemented using Python and Pydantic for intelligent agents | [Link](https://gist.github.com/ruvnet/5227498ee0f072bd5c304773a1ef9b08) |
-| ⚙️ **AgentXNG** - CLI tool powered by Anthropic's Claude-3.5-Sonnet for development tasks | [Link](https://github.com/ruvnet/agentXNG) |
-| 🏛️ **AI-Driven Decentralized Organization (AIDO)** - Network of specialized AI agents for autonomous and distributed decision-making without blockchain | [Link](https://github.com/ruvnet/aido) |
-| 🌟 **Hello World Agent** - Extensible agent framework leveraging ReACT methodology for autonomous task execution | [Link](https://github.com/ruvnet/hello_world_agent) |
-| ⚡ **Inflight Agentics** - Real-time event processing system for continuous monitoring and autonomous action execution within milliseconds | [Link](https://github.com/ruvnet/inflight) |
-| ✨ **q-star** - Reinforcement learning-based framework for intelligent agents using Microsoft AutoGen | [Link](https://github.com/ruvnet/q-star) |
-| ⚙️ **rUv MoE Toolkit** - Powering software with self-learning & auto-enhancement | [Link](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5) |
+This adds slash commands and agent definitions only. The Ruflo MCP server is NOT registered, so `memory_store`, `swarm_init`, `agent_spawn`, etc. won't be callable from Claude. For the full loop, use Path B below.
 
-## Edge and Distributed Agents
+<details>
+<summary><strong>🔌 All 32 plugins</strong></summary>
 
-| Project/Description | GitHub |
-| --- | --- |
-| 📡 **Agentic Edge Functions** - Foundation for distributed autonomous AI agents operating at the network edge with low latency | [Link](https://github.com/agenticsorg/edge-agents/) |
-| 🛰️ **Agentic Preview** - Asynchronous FastAPI backend service for deploying preview environments using Fly.io | [Link](https://github.com/ruvnet/agentic-preview) |
+#### Core & Orchestration
 
-# Chatbots and Conversational AI
+| Plugin | What it does |
+|--------|-------------|
+| [**ruflo-core**](plugins/ruflo-core/README.md) | Foundation — server, health checks, plugin discovery |
+| [**ruflo-swarm**](plugins/ruflo-swarm/README.md) | Coordinate multiple agents as a team |
+| [**ruflo-autopilot**](plugins/ruflo-autopilot/README.md) | Let agents run autonomously in a loop |
+| [**ruflo-loop-workers**](plugins/ruflo-loop-workers/README.md) | Schedule background tasks on a timer |
+| [**ruflo-workflows**](plugins/ruflo-workflows/README.md) | Reusable multi-step task templates |
+| [**ruflo-federation**](plugins/ruflo-federation/README.md) | Agents on different machines collaborate securely |
 
-Projects enhancing communication through AI-driven chatbots, voice interactions, and prompt engineering.
+#### Memory & Knowledge
 
-| Project/Description | GitHub |
-| --- | --- |
-| 🗨️ **Agentic Voice** - Advanced AI-powered chat app for real-time communication | [Link](https://github.com/ruvnet/agentic-voice) |
-| 🤖 **Bot Generator Bot** - The ultimate bot generator bot prompt. Create powerful ChatGPT bots for anything you can imagine | [Link](https://gist.github.com/ruvnet/5cf24851841a120198f43e9639dba7a5) |
-| 🔊 **Omnipotent** - Quantum consciousness voice interface for real-time AI conversations using OpenAI's speech API | [Link](https://github.com/ruvnet/omnipotent) |
-| 🔧 **Prompt Engine** - A powerful and flexible template designed to facilitate the creation and customization of interactive prompts | [Link](https://github.com/ruvnet/Prompt-Engine) |
-| 📝 **PromptLang()** - A prompt-based programming language for prompts and AI interactions | [Link](https://github.com/ruvnet/promptlang) |
-| 🧮 **Symbolic Scribe** - Specialized prompt engineering tool using mathematical frameworks for precise, structured AI interactions | [Link](https://github.com/ruvnet/symbolic-scribe) |
-| 📊 **SynthLang** - Mathematically-structured prompt optimization tool that reduces AI costs and increases processing speed | [Link](https://github.com/ruvnet/SynthLang) |
-| 📞 **Voicebot** - AI-driven mock interviews and voice interactions via phone calls, using Flask | [Link](https://github.com/ruvnet/voicebot) |
+| Plugin | What it does |
+|--------|-------------|
+| [**ruflo-agentdb**](plugins/ruflo-agentdb/README.md) | Fast vector database for agent memory |
+| [**ruflo-rag-memory**](plugins/ruflo-rag-memory/README.md) | Smart retrieval — hybrid search, graph hops, diversity ranking |
+| [**ruflo-rvf**](plugins/ruflo-rvf/README.md) | Save and restore agent memory across sessions |
+| [**ruflo-ruvector**](plugins/ruflo-ruvector/README.md) | [`ruvector`](https://npmjs.com/package/ruvector) — GPU-accelerated search, Graph RAG, 103 tools |
+| [**ruflo-knowledge-graph**](plugins/ruflo-knowledge-graph/README.md) | Build and traverse entity relationship maps |
 
-# Developer Tools and Utilities
-
-Tools to streamline coding, deployment, and project management.
+#### Intelligence & Learning
 
-## Development Environments
+| Plugin | What it does |
+|--------|-------------|
+| [**ruflo-intelligence**](plugins/ruflo-intelligence/README.md) | Agents learn from past successes and get smarter |
+| [**ruflo-daa**](plugins/ruflo-daa/README.md) | Dynamic agent behavior and cognitive patterns |
+| [**ruflo-ruvllm**](plugins/ruflo-ruvllm/README.md) | Run local LLMs (Ollama, etc.) with smart routing |
+| [**ruflo-goals**](plugins/ruflo-goals/README.md) | Break big goals into plans and track progress |
 
-| Project/Description | GitHub |
-| --- | --- |
-| 🚀 **AWS Dev** - AWS development environment | [Link](https://github.com/ruvnet/aws-dev) |
-| 🔄 **Claude Code MCP – code-flow Mode** - Code execution and refinement flow for RooCode-style agentic environments with autonomous code optimization | [Link](https://github.com/ruvnet/claude-code-flow) |
-| 🐝 **CodeSwarm: VSCode Remote MCP Server** - CLI and MCP server for VSCode remote development with swarm deployment and instance management | [Link](https://github.com/ruvnet/vsc-remote-mcp) |
-| 📦 **pipackager** - Tool to manage your PyPI package | [Link](https://github.com/ruvnet/pipackager) |
-| 🔍 **Reflective Engineer** - LangChain-based development environment for building, testing, and deploying AI agents | [Link](https://github.com/ruvnet/reflective-engineer) |
-| 🛠️ **rUv-dev** - AI-powered development using the rUv approach | [Link](https://github.com/ruvnet/rUv-dev) |
-| 🧩 **SPARC 2.0** - Intelligent coding agent framework with MCP capabilities for automated software development | [Link](https://github.com/agenticsorg/sparc2) |
-| 💻 **SPARC IDE** - Customizable VSCode distribution for agentic software development with Roo Code integration for prompt-driven workflows | [Link](https://github.com/ruvnet/sparc-ide) |
+#### Code Quality & Testing
 
-## Security Tools
+| Plugin | What it does |
+|--------|-------------|
+| [**ruflo-testgen**](plugins/ruflo-testgen/README.md) | Find missing tests and generate them automatically |
+| [**ruflo-browser**](plugins/ruflo-browser/README.md) | Automate browser testing with Playwright |
+| [**ruflo-jujutsu**](plugins/ruflo-jujutsu/README.md) | Analyze git diffs, score risk, suggest reviewers |
+| [**ruflo-docs**](plugins/ruflo-docs/README.md) | Generate and maintain documentation automatically |
 
-| Project/Description | GitHub |
-| --- | --- |
-| 🔒 **Agentic Security** - Autonomous security pipeline combining AI tools for scanning, remediation, and code management | [Link](https://github.com/ruvnet/agentic-security) |
-| 🔍 **Agentic Security Scanner** - AI-powered tool for automatically detecting vulnerabilities in code repositories | [Link](https://github.com/agenticsorg/agentic-security) |
+#### Security & Compliance
 
-## Automation Tools
+| Plugin | What it does |
+|--------|-------------|
+| [**ruflo-security-audit**](plugins/ruflo-security-audit/README.md) | Scan for vulnerabilities and CVEs |
+| [**ruflo-aidefence**](plugins/ruflo-aidefence/README.md) | Block prompt injection, detect PII, safety scanning |
+
+#### Architecture & Methodology
+
+| Plugin | What it does |
+|--------|-------------|
+| [**ruflo-adr**](plugins/ruflo-adr/README.md) | Track architecture decisions with a living record |
+| [**ruflo-ddd**](plugins/ruflo-ddd/README.md) | Scaffold domain-driven design — contexts, aggregates, events |
+| [**ruflo-sparc**](plugins/ruflo-sparc/README.md) | Guided 5-phase development methodology with quality gates |
+
+#### DevOps & Observability
+
+| Plugin | What it does |
+|--------|-------------|
+| [**ruflo-migrations**](plugins/ruflo-migrations/README.md) | Manage database schema changes safely |
+| [**ruflo-observability**](plugins/ruflo-observability/README.md) | Structured logs, traces, and metrics in one place |
+| [**ruflo-cost-tracker**](plugins/ruflo-cost-tracker/README.md) | Track token usage, set budgets, get cost alerts |
+
+#### Extensibility
 
-| Project/Description | GitHub |
-| --- | --- |
-| 🌐 **Auto-Browser** - AI-powered web automation tool that enables complex interactions through natural language commands | [Link](https://github.com/ruvnet/auto-browser) |
+| Plugin | What it does |
+|--------|-------------|
+| [**ruflo-agent**](plugins/ruflo-agent/README.md) | Run agents — local WASM sandbox (rvagent) + Anthropic Claude Managed Agents (cloud) |
+| [**ruflo-plugin-creator**](plugins/ruflo-plugin-creator/README.md) | Scaffold, validate, and publish your own plugins |
+
+#### Domain-Specific
+
+| Plugin | What it does |
+|--------|-------------|
+| [**ruflo-iot-cognitum**](plugins/ruflo-iot-cognitum/README.md) | IoT device management — trust scoring, anomaly detection, fleets |
+| [**ruflo-neural-trader**](plugins/ruflo-neural-trader/README.md) | [`neural-trader`](https://npmjs.com/package/neural-trader) — AI trading with 4 agents, backtesting, 112+ tools |
+| [**ruflo-market-data**](plugins/ruflo-market-data/README.md) | Ingest market data, vectorize OHLCV, detect patterns |
+
+</details>
+
+### CLI Install
+
+**macOS / Linux / WSL / Git-Bash:**
+
+```bash
+# One-line install (POSIX shells only — see Windows note below)
+curl -fsSL https://cdn.jsdelivr.net/gh/ruvnet/ruflo@main/scripts/install.sh | bash
+```
+
+**All platforms (including native Windows PowerShell / cmd):**
+
+```bash
+# Interactive setup wizard — runs identically on every platform
+npx ruflo@latest init wizard
+
+# Quick non-interactive init
+# npx ruflo@latest init
+
+# Or install globally
+npm install -g ruflo@latest
+```
+
+> 💡 **Windows users:** the `curl ... | bash` form needs a POSIX shell (Git-Bash, WSL, MSYS). The `npx ruflo@latest init wizard` line works natively in PowerShell and cmd. If you hit an `'bash' is not recognized` error, use the `npx` line instead — both end up running the same init flow.
+
+### MCP Server
+
+```bash
+# Add Ruflo as an MCP server in Claude Code (canonical form, matches USERGUIDE.md)
+claude mcp add ruflo -- npx ruflo@latest mcp start
+```
+
+---
+
+## What You Get
+
+| Capability | Description |
+|------------|-------------|
+| 🤖 **100+ Agents** | Specialized agents for coding, testing, security, docs, architecture |
+| 📡 **Comms Layer** | Zero-trust federation — agents across machines/orgs discover, authenticate, and exchange work securely |
+| 🐝 **Swarm Coordination** | Hierarchical, mesh, and adaptive topologies with consensus |
+| 🧠 **Self-Learning** | SONA neural patterns, ReasoningBank, trajectory learning |
+| 💾 **Vector Memory** | HNSW-indexed AgentDB with 150x-12,500x faster search |
+| ⚡ **Background Workers** | 12 auto-triggered workers (audit, optimize, testgaps, etc.) |
+| 🧩 **Plugin Marketplace** | 32 native Claude Code plugins + 21 npm plugins |
+| 🔌 **Multi-Provider** | Claude, GPT, Gemini, Cohere, Ollama with smart routing |
+| 🛡️ **Security** | AIDefence, input validation, CVE remediation, path traversal prevention |
+| 🌐 **Agent Federation** | Cross-installation agent collaboration with zero-trust security |
+| 💬 **[Web UI Beta](https://flo.ruv.io/)** | Multi-model chat at flo.ruv.io with parallel MCP tool calling and an in-browser WASM tool gallery |
+| 🎯 **[RuFlo Research](https://goal.ruv.io/)** | GOAP A\* planner at goal.ruv.io — plain-English goals → executable agent plans, with a live agent dashboard at [/agents](https://goal.ruv.io/agents) |
+
+<p align="center">
+  <a href="https://flo.ruv.io/">
+    <img src="v3/docs/assets/ruVocal.png" alt="RuFlo Web UI executing parallel MCP tool calls at flo.ruv.io — ruflo__memory_store and ruflo__memory_search firing in a single model turn with the 'Step 1 — 2 tools completed' parallel-execution indicator, thinking process panel visible, Qwen 3.6 Max as the active model. Multi-agent AI chat with Model Context Protocol (MCP) tool calling, persistent vector memory via AgentDB + HNSW, swarm coordination, and 6 frontier models including Claude Sonnet 4.6, Gemini 2.5 Pro, and OpenAI through OpenRouter." width="100%" />
+  </a>
+</p>
 
-# Data Analysis and Modeling
+### Web UI (Beta) — self-hostable, hosted demo at [flo.ruv.io](https://flo.ruv.io/)
 
-Projects leveraging AI for data manipulation, analysis, reporting, and predictive modeling.
+**RuFlo's web UI is a multi-model AI chat with built-in Model Context Protocol (MCP) tool calling.** Talk to Qwen, Claude, Gemini, or OpenAI while RuFlo invokes the same MCP tools the CLI uses — agent orchestration, persistent memory, swarm coordination, code review, GitHub ops — directly from chat. No install, no API key needed to try it.
 
-## Analytics and Reporting
+| | What it is | Why it matters |
+|---|------------|----------------|
+| 🧠 | **Any model, local or remote** | 6 curated frontier models out-of-the-box — Qwen 3.6 Max (default), Claude Sonnet 4.6, Claude Haiku 4.5, Gemini 2.5 Pro, Gemini 2.5 Flash, OpenAI — via OpenRouter. Add your own: any OpenAI-compatible endpoint (vLLM, Ollama, LM Studio, Together, Groq, self-hosted). |
+| 🦾 | **ruvLLM self-learning AI** | Native support for [ruvLLM](https://github.com/ruvnet/RuVector/tree/main/examples/ruvLLM) (lives in `ruvnet/RuVector/examples/ruvLLM`) — RuFlo's self-improving local model layer. Routes to MicroLoRA adapters, learns from your trajectories via SONA, and stays on your machine. Pair with the cloud models or run fully offline. |
+| 🛠️ | **~210 tools, ready to call** | 5 server groups (Core, Intelligence, Agents, Memory, DevTools) plus an 18-tool gallery that runs entirely in your browser — works offline. |
+| 🔌 | **Bring your own MCP servers** | Click the **MCP (n)** pill in the chat input → *Add Server* and paste any MCP endpoint (HTTP, SSE, or stdio). Your tools join RuFlo's native ones in the same parallel-execution flow. Run a local MCP server on `localhost:3000` and it just works. |
+| ⚡ | **Tools run in parallel** | One model response can fire 4–6+ tools at the same time. The UI shows them as cards with a *Step 1 — 2 tools completed* badge so you can see exactly what ran. |
+| 💾 | **Memory that sticks** | Say *"remember my favorite color is indigo"* and ask weeks later — RuFlo recalls it. Backed by AgentDB + HNSW vector search (≥150× faster than brute force). |
+| 📘 | **Built-in capabilities tour** | Click the question-mark icon in the sidebar — a "RuFlo Capabilities" modal opens with the full tool list, model strengths, architecture, and keyboard shortcuts. |
+| 🏠 | **Self-hostable** | Web UI is shipped as Docker (`ruflo/src/ruvocal/Dockerfile`) with embedded Mongo. Deploy to your own Cloud Run / Fly / Kubernetes / docker-compose. The hosted [flo.ruv.io](https://flo.ruv.io/) demo is one option; running your own is fully supported. |
+| 🚀 | **Zero install to try** | Open the hosted URL, pick a model, type a question. That's the whole onboarding. |
 
-| Project/Description | GitHub |
-| --- | --- |
-| 📑 **Agentic Reports** - Python library for generating research reports using AI models | [Link](https://github.com/ruvnet/agentic-reports) |
-| 📄 **File Summarization API** - FastAPI application for uploading files and generating summaries using LlamaIndex | [Link](https://gist.github.com/ruvnet/6a42f511a9eca74729986e70aa695bc6) |
-| 📊 **GenAI-Superstream** - Demonstrates Agentic Engineering and "Vibe Coding" for data science with DuckDB and scikit-learn for UK job market AI impact analysis | [Link](https://github.com/ruvnet/GenAI-Superstream) |
-| 💾 **GPT Repository** - Catalog of tailored GPT models for various applications | [Link](https://github.com/ruvnet/gpts) |
-| 💰 **LLM Total Cost of Ownership (TCO) Calculator** - Tool to estimate the total cost of ownership for various LLMs | [Link](https://gist.github.com/ruvnet/7dfa190c97b0f3d1f0872d14ae2a22c7) |
-| 🧪 **Mixture of Experts (MoE) Model Implementation** - PyTorch implementation combining transformer layers with an MoE layer of 8 experts | [Link](https://gist.github.com/ruvnet/b4b29101a99b1e45bf7da5c8b3cc2fb3) |
+**Try the hosted demo:** [https://flo.ruv.io/](https://flo.ruv.io/) — no account, no API key. **Run your own:** the source lives in [`ruflo/src/ruvocal/`](ruflo/src/ruvocal/) with a multi-stage Dockerfile (`INCLUDE_DB=true` builds in MongoDB) and a `cloudbuild.yaml` for Google Cloud Run. See [ADR-033](ruflo/docs/adr/ADR-033-RUVOCAL-WASM-MCP-INTEGRATION.md) for the architecture and [issue #1689](https://github.com/ruvnet/ruflo/issues/1689) for the roadmap.
+
+<p align="center">
+  <a href="https://goal.ruv.io/agents">
+    <img src="v3/docs/assets/goal.png" alt="goal.ruv.io/agents — RuFlo Goal-Oriented Action Planning (GOAP) UI for autonomous AI agents. Visual goal decomposition, A* search through state spaces, multi-agent task assignment, and live agent telemetry." width="100%" />
+  </a>
+</p>
+
+### Goal Planner UI — autonomous agents at [goal.ruv.io](https://goal.ruv.io/)
+
+**Turn high-level goals into executable agent plans.** `goal.ruv.io` is RuFlo's hosted Goal-Oriented Action Planning (GOAP) front-end — describe an outcome in plain English and watch RuFlo decompose it into preconditions, actions, and an A* path through state space, then dispatch the work to live agents at [`/agents`](https://goal.ruv.io/agents).
 
-## Predictive Models and Cognitive Frameworks
-
-| Project/Description | GitHub |
-| --- | --- |
-| 🧠 **Cognitive Framework for Logic, Reasoning, and Comprehension** - Framework optimizing logic and reasoning when using ChatGPT | [Link](https://gist.github.com/ruvnet/8bcc6e11b38db72ed56f04eaf811ea1d) |
-| 📊 **Config for a TikTok-like Recommender on Azure** - Services needed to implement a TikTok-like recommender system using Azure | [Link](https://gist.github.com/ruvnet/6217ea3bd75cc0c27522965965e7383b) |
-| 🗳️ **Electo1 JS** - Predict elections at an individual level in real-time | [Link](https://github.com/ruvnet/electo1-js) |
-| 🤖 **Sentient Systems: Declarative Cognitive Architecture** - Bridging technology with human cognition and consciousness | [Link](https://gist.github.com/ruvnet/4b8e75ea2e4f18bd72da1ac43a1a2a64) |
-| 🍓 **Strawberry Phi** - Fine-tuning app for OpenAI's GPT models | [Link](https://github.com/ruvnet/strawberry-phi) |
-
-# UI/UX and Visualization
-
-Projects enhancing user interfaces and experiences through AI.
-
-| Project/Description | GitHub |
-| --- | --- |
-| 🌌 **Genesis UI** - Groundbreaking physics platform for robotics and embodied AI with simulation speeds of 43 million FPS | [Link](https://github.com/ruvnet/genesis) |
-| 🚀 **Infinity UI: A Sci-Fi Odyssey** - Sci-fi inspired interactive user interface | [Link](https://github.com/ruvnet/infinity-ui) |
-| 🦙 **Llamastack** - UI for Meta LLama Stack Apps / Agents | [Link](https://github.com/ruvnet/llamastack) |
-| 🎨 **retro-ai-ui** - Prompt building web application with a retro-style Unix web-based command line interface | [Link](https://github.com/ruvnet/retro-ai-ui) |
-| 💻 **rUvix** - Retro-futuristic terminal interface showcasing agentic engineering services and vibe coding | [Link](https://github.com/ruvnet/vibing) |
-| 🗂️ **supa-ruv** - Everything you need to use Supabase + AI | [Link](https://github.com/ruvnet/supa-ruv) |
-
-# Cloud and Infrastructure
-
-Tools for cloud development, deployment, and infrastructure management.
-
-| Project/Description | GitHub |
-| --- | --- |
-| 🤖 **Agentic DevOps** - Autonomous AI-powered platform for managing cloud infrastructure across multiple providers | [Link](https://github.com/agenticsorg/devops) |
-| 🛰️ **Agentic Preview** - Backend service for deploying preview environments using Fly.io | [Link](https://github.com/ruvnet/agentic-preview) |
-| 🚀 **AWS Dev** - AWS development environment setup | [Link](https://github.com/ruvnet/aws-dev) |
-| 🔭 **q-space** - Deployment wizard for quantum computing applications using Azure Quantum and Functions | [Link](https://github.com/ruvnet/q-space) |
-| 🗂️ **supa-ruv** - Resources for using Supabase with AI projects | [Link](https://github.com/ruvnet/supa-ruv) |
-
-# Quantum Computing
-
-Explorations into quantum computing applications and intelligent agents.
-
-| Project/Description | GitHub |
-| --- | --- |
-| ✨ **q-star** - Framework for intelligent agents using Q-learning for decision-making | [Link](https://github.com/ruvnet/q-star) |
-| ✨ **Q-Star Agent Code** - Reinforcement learning framework for intelligent agents using Microsoft AutoGen | [Link](https://gist.github.com/ruvnet/b110bd43b66c107393e31fe475a14be9) |
-| ⚛️ **Quantum Agentics** - Quantum computing system for optimizing agent-based task allocation using Azure Quantum | [Link](https://github.com/agenticsorg/quantum-agentics) |
-| 💰 **Quantum Cryptocurrency** - Next-generation cryptocurrency platform leveraging quantum computing for enhanced security and scalability | [Link](https://github.com/ruvnet/quantum_cryptocurrency) |
-| 🔭 **Quantum Magnetic Navigation** - A navigation system that uses quantum magnetometers to provide precise positioning in GPS-denied environments. | [Link](https://github.com/ruvnet/quantum-magnetic-navigation) |
-
-# Media and Content Processing
-
-Projects involving media capture, processing, and AI-based content analysis.
-
-| Project/Description | GitHub |
-| --- | --- |
-| 📹 **ai-video** - Captures media streams and uses AI to analyze and summarize frames | [Link](https://github.com/ruvnet/ai-video) |
-| 🔥 **Fireflies Webhook** - Webhook endpoint for Fireflies transcripts with intent detection | [Link](https://github.com/ruvnet/fireflies-webook) |
-| 📚 **Story Development Toolkit** - Python libraries designed to help generate engaging and coherent stories | [Link](https://gist.github.com/ruvnet/aeb4fb6a0260a922f037a476ffded72d) |
-
-# Distributed Systems and Swarm Computing
-
-Exploring swarm intelligence and distributed algorithms.
-
-| Project/Description | GitHub |
-| --- | --- |
-| 📹 **AWS ECS Video Processor** - Framework for deploying a video processing service on AWS ECS | [Link](https://gist.github.com/ruvnet/06b397b596a75fb5614215f3d4f78973) |
-| 🐝 **Basic SWARM Algorithm** - Swarm computing algorithm performing basic functions | [Link](https://gist.github.com/ruvnet/c0acb81e02cb5c052e1def32e3f8df04) |
-
-# Web Development and APIs
-
-Projects focused on web development and API integration.
-
-| Project/Description | GitHub |
-| --- | --- |
-| 🤖 **Agentic_Robots.txt** - Extended protocol framework for autonomous agent interaction with web applications | [Link](https://github.com/agenticsorg/agentic-robots-txt) |
-
-# Other Notable Projects
-
-Miscellaneous projects that don't fit into other categories.
-
-| Project/Description | GitHub |
-| --- | --- |
-| 📜 **ai-gist** - FastAPI application to create and update GitHub gists using the GitHub API | [Link](https://github.com/ruvnet/ai-gist) |
-| 🏆 **AIHL** - The AI Hacker League: A non-profit for innovation, collaboration, and ethical AI practices | [Link](https://github.com/ruvnet/aihl) |
-
-## ChatGPT Plug-ins:  
-* **Building a ChatGPT Plugin: AI Web Surfer**  
-ChatGPT plugins are a powerful way to extend the capabilities of the ChatGPT.This how to build a ChatGPT plugin called "AI Surfer" that allows ChatGPT to surf the internet, summarize articles, and limit token counts using concurrent API connections. We'll also discuss how to deploy the plugin to Replit for free or to other cloud services.
-https://github.com/ruvnet/Surfer 
-
-* **ChatGPT OpenAi API Plugin:**  
-A powerful ChatGPT plugin that integrates with the OpenAI API, enabling creative text generation, conversational AI, model fine-tuning, and more. Enhance ChatGPT's capabilities with seamless access to OpenAI's language models. 
-https://github.com/ruvnet/chatgpt-openai-api-plugin 
-
-* **ChatGPT Hugging Face Plugin:**  
-The Hugging Face API plugin for ChatGPT is a powerful integration that allows ChatGPT to interact with the Hugging Face platform, a leading provider of natural language processing (NLP) models, datasets, and tools. 
-https://github.com/ruvnet/Surfer/tree/chatgpt-huggingface-plugin
-
-# Rust Crates (crates.io)
-
-High-performance Rust libraries and tools for distributed systems, quantum computing, and AI infrastructure.
-
-## Most Popular Crates
-
-| Crate/Description | Downloads | Link |
-| --- | --- | --- |
-| 🔐 **qudag-crypto** - Quantum-resistant cryptography library for QuDAG with ML-KEM-768, ML-DSA, HQC, and BLAKE3 | 3,489 | [Link](https://crates.io/crates/qudag-crypto) |
-| 🖥️ **qudag-cli** - Command-line interface for QuDAG to manage nodes, peers, dark addresses, rUv token exchange, and business plan payouts | 3,686 | [Link](https://crates.io/crates/qudag-cli) |
-| 🕸️ **qudag** - QuDAG: Darknet for agent swarms with ultra-fast quantum-resistant distributed communication platform | 3,584 | [Link](https://crates.io/crates/qudag) |
-| 🌐 **qudag-network** - P2P networking layer for QuDAG with LibP2P, onion routing, dark addressing, and quantum encryption | 3,270 | [Link](https://crates.io/crates/qudag-network) |
-| ⚡ **qudag-dag** - DAG consensus implementation for QuDAG with QR-Avalanche algorithm and Byzantine fault tolerance | 2,970 | [Link](https://crates.io/crates/qudag-dag) |
-| 📡 **qudag-protocol** - Protocol implementation for QuDAG orchestrating crypto, DAG, and network components | 2,737 | [Link](https://crates.io/crates/qudag-protocol) |
-| 🔒 **qudag-vault-core** - Quantum-resistant password vault library with post-quantum cryptography | 2,605 | [Link](https://crates.io/crates/qudag-vault-core) |
-| 🧠 **ruv-fann** - Pure Rust implementation of the Fast Artificial Neural Network (FANN) library | 2,562 | [Link](https://crates.io/crates/ruv-fann) |
-| 🔗 **qudag-mcp** - Model Context Protocol (MCP) server for QuDAG integrating vault, exchange, and quantum-resistant operations | 2,053 | [Link](https://crates.io/crates/qudag-mcp) |
-| 🤖 **ruv-swarm-core** - Core orchestration and agent traits for RUV Swarm | 1,935 | [Link](https://crates.io/crates/ruv-swarm-core) |
-| 💻 **cuda-rust-wasm** - CUDA to Rust transpiler with WebGPU/WASM support | 1,887 | [Link](https://crates.io/crates/cuda-rust-wasm) |
-
-## Most Recent Crates
-
-| Crate/Description | Updated | Link |
-| --- | --- | --- |
-| 💳 **agentic-payments** - Autonomous multi-agent Ed25519 signature verification with Byzantine fault tolerance | 4 days ago | [Link](https://crates.io/crates/agentic-payments) |
-| 🎯 **goalie** - AI-powered research assistant with GOAP planning, advanced reasoning, MCP protocol support, and Perplexity API integration | 5 days ago | [Link](https://crates.io/crates/goalie) |
-| 🔍 **bit-parallel-search** - Blazing fast string search using bit-parallel algorithms - up to 8x faster than naive search | 7 days ago | [Link](https://crates.io/crates/bit-parallel-search) |
-| ⏱️ **temporal-compare** - High-performance framework for benchmarking temporal prediction algorithms inspired by Time-R1 | 7 days ago | [Link](https://crates.io/crates/temporal-compare) |
-| 🌀 **temporal-attractor-studio** - Temporal Attractor Studio for real FTLE calculation and temporal dynamics prediction with VP-tree optimization | 7 days ago | [Link](https://crates.io/crates/temporal-attractor-studio) |
-| ⏳ **subjective-time-expansion** - Subjective Time Expansion for AI Consciousness - framework enabling individual agents to experience dilated time perception for enhanced cognitive processing | 8 days ago | [Link](https://crates.io/crates/subjective-time-expansion) |
-| 🔄 **strange-loop** - Hyper-optimized strange loops with temporal consciousness and quantum-classical hybrid computing via NPX/npx | 9 days ago | [Link](https://crates.io/crates/strange-loop) |
-| 🧮 **sublinear** - High-performance sublinear-time solver for asymmetric diagonally dominant systems | 10 days ago | [Link](https://crates.io/crates/sublinear) |
-
-View all 82 crates at [crates.io/users/ruvnet](https://crates.io/users/ruvnet)
+| | What it is | Why it matters |
+|---|------------|----------------|
+| 🎯 | **Plain-English goals** | Type *"ship the auth refactor with tests and a PR"* — RuFlo extracts the success criteria, the constraints, and the implicit preconditions. No JSON, no DSL. |
+| 🧭 | **GOAP A\* planner** | Classic gaming-AI planning ported to software work: state-space search through actions with preconditions/effects to find the shortest viable path. Replans on the fly when state changes. |
+| 🤖 | **Live agent dashboard** | [goal.ruv.io/agents](https://goal.ruv.io/agents) shows every spawned agent — role, current step, memory namespace, token budget, status. Click in to inspect trajectories, kill runaway workers, or reassign. |
+| 🌳 | **Visual plan tree** | Goals render as collapsible action trees with progress, blocked branches, and rollbacks highlighted. See *exactly* why an agent picked a path — no opaque chain-of-thought. |
+| ♻️ | **Adaptive replanning** | When an action fails or new info arrives, the planner re-runs A\* from the current state instead of restarting. Failures become learning, not loops. |
+| 🧠 | **Shared memory + SONA** | Plans, trajectories, and outcomes flow into AgentDB. Future plans retrieve past solutions via HNSW — the planner gets smarter with every run. |
+| 🔗 | **Wired to MCP tools** | Every action node maps to a tool call (RuFlo's ~210 MCP tools, your custom servers, or shell). The planner schedules them in parallel where the dependency graph allows. |
+| 🚀 | **Zero install to try** | Open [goal.ruv.io](https://goal.ruv.io/), describe a goal, watch it run. Source lives in [`v3/goal_ui/`](v3/goal_ui/) — Vite + Supabase, self-hostable. |
+
+**Try it:** [https://goal.ruv.io/](https://goal.ruv.io/) for goals · [https://goal.ruv.io/agents](https://goal.ruv.io/agents) for live agents. **Run your own:** clone the `goal` branch and `cd v3/goal_ui && npm install && npm run dev`.
+
+### Agent Federation — Slack for Agents
+
+```
+Your Agent --> [ Remove secrets ] --> [ Sign message ] --> [ Encrypted channel ]
+                 Emails, SSNs,        Proves it came       No one reads it
+                 keys stripped         from you              in transit
+                                                                |
+                                                                v
+Their Agent <-- [ Block attacks ] <-- [ Check identity ] <------+
+                 Stops prompt          Rejects forgeries
+                 injection
+
+                          Audit trail on both sides.
+                  Trust builds over time. Bad behavior = instant downgrade.
+```
+
+Slack gave teams channels. Federation gives agents the same thing — **shared workspaces across trust boundaries**, where agents on different machines, orgs, or cloud regions can discover each other, prove who they are, and collaborate on tasks.
+
+The difference: some channels are trusted, some aren't. [`@claude-flow/plugin-agent-federation`](https://github.com/ruvnet/ruflo/issues/1669) handles that automatically. Your agents join a federation, get verified via mTLS + ed25519, and start exchanging work — with PII stripped before anything leaves your node and every message auditable. Untrusted agents can still participate at lower privilege: they see discovery info, not your memory. As they prove reliable, trust upgrades. If they misbehave, they get downgraded instantly — no human in the loop required.
+
+You don't configure handshakes or manage certificates. You `federation init`, `federation join`, and your agents start talking. The protocol handles identity, the PII pipeline handles data safety, and the audit trail handles compliance.
+
+> **📘 Full user guide:** [`docs/federation/`](./docs/federation/) — setup, MCP tools, trust levels, circuit breaker, and the (opt-in) WireGuard mesh layer that ties packet-layer reachability to federation trust. ADR-111 deep-dive at [`docs/federation/phase7-mesh-bringup.md`](./docs/federation/phase7-mesh-bringup.md).
+
+<details>
+<summary><strong>Federation capabilities</strong></summary>
+
+| | Capability | How it works |
+|---|---|---|
+| 🔒 | **Zero-trust federation** | Remote agents start untrusted. Identity proven via mTLS + ed25519 challenge-response. No API keys, no shared secrets. |
+| 🛡️ | **PII-gated data flow** | 14-type detection pipeline scans every outbound message. Per-trust-level policies: BLOCK, REDACT, HASH, or PASS. Adaptive calibration reduces false positives. |
+| 📊 | **Behavioral trust scoring** | Formula (`0.4×success + 0.2×uptime + 0.2×threat + 0.2×integrity`) continuously evaluates peers. Upgrades require history; downgrades are instant. |
+| 📋 | **Compliance built-in** | HIPAA, SOC2, GDPR audit trails as compliance modes. Every federation event produces a structured record searchable via HNSW. |
+| 🤝 | **9 MCP tools + 10 CLI commands** | Full lifecycle: `federation_init`, `federation_send`, `federation_trust`, `federation_audit`, and more. |
+
+</details>
+
+<details>
+<summary><strong>Example: two teams sharing fraud signals without sharing customer data</strong></summary>
+
+```bash
+# Team A: initialize federation and generate keypair
+npx claude-flow@latest federation init
+
+# Team A: join Team B's federation endpoint
+npx claude-flow@latest federation join wss://team-b.example.com:8443
+
+# Team A: send a task — PII is stripped automatically before it leaves
+npx claude-flow@latest federation send --to team-b --type task-request \
+  --message "Analyze transaction patterns for account anomalies"
+
+# Team A: check peer trust levels and session health
+npx claude-flow@latest federation status
+```
+
+</details>
+
+See [issue #1669](https://github.com/ruvnet/ruflo/issues/1669) for the complete architecture, trust model, and implementation roadmap.
+
+```bash
+# Claude Code plugin
+/plugin install ruflo-federation@ruflo
+
+# Or via CLI
+npx claude-flow@latest plugins install @claude-flow/plugin-agent-federation
+```
+
+<details>
+<summary><strong>Claude Code: With vs Without Ruflo</strong></summary>
+
+| Capability | Claude Code Alone | + Ruflo |
+|------------|-------------------|---------|
+| Agent Collaboration | Isolated, no shared context | Swarms with shared memory and consensus |
+| Coordination | Manual orchestration | Queen-led hierarchy (Raft, Byzantine, Gossip) |
+| Memory | Session-only | HNSW vector memory with sub-ms retrieval |
+| Learning | Static behavior | SONA self-learning with pattern matching |
+| Task Routing | You decide | Intelligent routing (89% accuracy) |
+| Background Workers | None | 12 auto-triggered workers |
+| LLM Providers | Anthropic only | 5 providers with failover |
+| Security | Standard | CVE-hardened with AIDefence |
+
+</details>
+
+<details>
+<summary><strong>Architecture overview</strong></summary>
+
+```
+User --> Claude Code / CLI
+          |
+          v
+    Orchestration Layer
+    (MCP Server, Router, 27 Hooks)
+          |
+          v
+    Swarm Coordination
+    (Queen, Topology, Consensus)
+          |
+          v
+    100+ Specialized Agents
+    (coder, tester, reviewer, architect, security...)
+          |
+          v
+    Memory & Learning
+    (AgentDB, HNSW, SONA, ReasoningBank)
+          |
+          v
+    LLM Providers
+    (Claude, GPT, Gemini, Cohere, Ollama)
+```
+
+</details>
+
+---
+
+## Documentation
+
+Three docs for three audiences:
+
+| Doc | When to read it |
+|-----|-----------------|
+| **[Status](docs/STATUS.md)** | See what currently works — capability counts, test baselines, recent fixes, what's next. The *is-it-ready* doc. |
+| **[User Guide](docs/USERGUIDE.md)** | Daily reference — every command, every config flag, every plugin. The *how-do-I* doc. |
+| **[Verification](verification.md)** | Cryptographically prove your installed bytes match the signed witness — `ruflo verify`. The *trust-but-verify* doc. |
+
+User Guide section index:
+
+| Section | Topics |
+|---------|--------|
+| [Quick Start](docs/USERGUIDE.md#quick-start) | Installation, prerequisites, install profiles |
+| [Core Features](docs/USERGUIDE.md#-core-features) | MCP tools, agents, memory, neural learning |
+| [Intelligence & Learning](docs/USERGUIDE.md#-intelligence--learning) | Hooks, workers, SONA, model routing |
+| [Swarm & Coordination](docs/USERGUIDE.md#-swarm--coordination) | Topologies, consensus, hive mind |
+| [Security](docs/USERGUIDE.md#%EF%B8%8F-security) | AIDefence, CVE remediation, validation |
+| [Ecosystem](docs/USERGUIDE.md#-ecosystem--integrations) | RuVector, agentic-flow, Flow Nexus |
+| [Configuration](docs/USERGUIDE.md#%EF%B8%8F-configuration--reference) | Environment variables, config schema |
+| [Plugin Marketplace](https://ruvnet.github.io/ruflo) | Browse and install plugins |
+
+---
+
+## Support
+
+| Resource | Link |
+|----------|------|
+| Documentation | [User Guide](docs/USERGUIDE.md) |
+| Issues & Bugs | [GitHub Issues](https://github.com/ruvnet/claude-flow/issues) |
+| Enterprise | [ruv.io](https://ruv.io) |
+| Community | [Agentics Foundation Discord](https://discord.com/invite/dfxmpwkG2D) |
+| Powered by | [Cognitum.one](https://cognitum.one) |
+
+## License
+
+MIT - [RuvNet](https://github.com/ruvnet)
