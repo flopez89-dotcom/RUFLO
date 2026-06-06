@@ -149,20 +149,59 @@ Redirect-URI https://pivot.claude.ai/auth/callback is not supported by client.
 
 ---
 
-## 6. Alternativa pragmática mientras Anthropic arregla los bugs
+## 6. Alternativa que SÍ funciona (verificada hoy)
 
-Si el add-in de Claude sigue fallando y necesitas trabajar YA:
+El add-in está roto del lado de Anthropic — no podemos arreglarlo desde
+acá. **Pero el objetivo real ("usar Claude con tus Excel") sí lo
+resolvemos** con un camino estable que ya está montado en este repo y
+verificado funcionando:
 
-1. **Exportar el Excel a `.xlsx`** y subirlo a una conversación normal en
-   claude.ai. Ahí Claude lo lee y procesa sin problemas.
-2. **Usar MarkItDown** (ya instalado en este repo, ver
-   `markitdown-uso.md`) para convertir Excel a Markdown y luego pegarlo
-   en el chat.
-3. Para PANAMERICAN TRAILERS — los Excel de cada área se pueden procesar
-   así sin depender del add-in.
+### Script `xlsx_a_claude.py` (en este mismo folder)
 
-Esto último es lo que te recomiendo mientras tanto: **no bloquees tu
-relevamiento por el bug de Anthropic.**
+Convierte cualquier `.xlsx` a un `.md` que pegas en claude.ai (web,
+desktop o VS Code) y obtienes el mismo resultado que el add-in roto.
+
+**Uso:**
+```bash
+# Convertir un archivo
+python3 xlsx_a_claude.py "Pipeline Ventas.xlsx"
+
+# Con archivo de salida específico
+python3 xlsx_a_claude.py datos.xlsx -o resumen.md
+
+# Limitar filas por hoja si el Excel es enorme
+python3 xlsx_a_claude.py grande.xlsx --max-filas 200
+```
+
+**Qué genera:**
+- Resumen del archivo (nombre, hojas, dimensiones).
+- Una sección por hoja con tabla Markdown lista para Claude.
+- Si la hoja excede `--max-filas`, muestra las primeras N + últimas 5
+  + total de filas (suficiente para que Claude entienda el universo).
+
+**Flujo completo:**
+1. `python3 xlsx_a_claude.py tu_archivo.xlsx`
+2. Abres el `.md` que genera.
+3. Lo copias completo y lo pegas en claude.ai con tu pregunta.
+4. Listo — Claude analiza tu Excel sin necesidad del add-in roto.
+
+### Por qué este camino es mejor que esperar a Anthropic
+- **No depende del bug abierto** — pasa por la interfaz normal de claude.ai
+  que sí funciona.
+- **Más rápido** — Excel local → md → chat, sin OAuth ni red corporativa
+  bloqueando endpoints.
+- **Funciona con cualquier plan** Claude (incluso gratuito para casos
+  pequeños).
+- **Privacidad controlada** — el `.md` lo revisas antes de pegarlo y
+  decides qué datos compartir.
+- **Reutilizable** — el mismo script sirve para todas las áreas durante
+  el relevamiento (Ventas, Producción, Compras, etc.).
+
+### Alternativa rápida sin script
+Si no quieres usar el script, también puedes:
+- Subir el `.xlsx` directo a una conversación en claude.ai (acepta el
+  formato).
+- O usar `markitdown archivo.xlsx -o archivo.md` (ver `markitdown-uso.md`).
 
 ---
 
