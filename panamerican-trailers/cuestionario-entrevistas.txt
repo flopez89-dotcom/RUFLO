@@ -1,0 +1,304 @@
+==============================================================================
+PANAMERICAN TRAILERS - CUESTIONARIO DE ENTREVISTAS POR AREA
+Documento de trabajo para grabar entrevistas (v1)
+==============================================================================
+
+COMO USAR ESTE DOCUMENTO
+------------------------
+- Una sesion por area (1.5 a 2 horas). Grabar audio.
+- Empezar SIEMPRE con el BLOQUE UNIVERSAL, luego las preguntas del area.
+- Pedir que muestren en pantalla un caso real de inicio a fin (no que lo
+  cuenten, que lo hagan).
+- Por cada dato importante preguntar las mismas 4 cosas:
+   1) De donde viene?  2) Donde lo guardas?
+   3) A quien se lo pasas?  4) Como se lo pasas (sistema/Excel/correo/
+      WhatsApp/papel/verbal)?
+- Al final pedir copia de cada formato/Excel/plantilla que usan.
+
+
+==============================================================================
+BLOQUE UNIVERSAL  (hacer a TODAS las areas)
+==============================================================================
+
+PROPOSITO Y PERSONAS
+1. Cual es la mision del area en una frase?
+2. De que eres responsable y de que NO?
+3. Quien hace que en el area (roles, cuantas personas, quien decide)?
+4. Que pasa cuando la persona clave de un proceso falta?
+
+ENTRADAS (lo que reciben)
+5. Que informacion necesitas para empezar a trabajar y de quien la recibes?
+6. En que formato y por que canal te llega?
+7. Que tan completa/confiable llega? Que te falta seguido y a quien se lo pides?
+8. Cuanto esperas en promedio por esa informacion antes de poder avanzar?
+
+PROCESO (lo que hacen)
+9. Describe los pasos de tu proceso principal, de inicio a fin.
+10. Que decisiones o aprobaciones hay y quien las da?
+11. Que pasos son manuales y se podrian evitar? Que copias o reescribes?
+12. Que excepciones o casos especiales rompen el proceso? Cada cuanto pasan?
+
+SALIDAS (lo que entregan)
+13. Que produces y a quien se lo entregas?
+14. En que formato y por que canal lo entregas?
+15. Como sabe el que recibe que ya esta listo? Hay confirmacion o se asume?
+16. Que pasa si entregas algo con error? Como se detecta y cuanto cuesta
+    corregirlo?
+
+HERRAMIENTAS Y DONDE VIVE EL DATO
+17. Lista TODOS los sistemas/programas que usas (nombre exacto).
+18. Cual es el sistema oficial y cuales son Excel/archivos paralelos?
+19. Donde se guardan los archivos (PC local / carpeta compartida / nube /
+    correo)?
+20. Quien tiene acceso? Hay respaldos? Que pasa si se pierde ese archivo?
+21. Usan el MISMO codigo de cliente/proyecto que las demas areas o cada uno
+    el suyo?
+
+VOLUMEN, TIEMPOS Y MEDICION
+22. Cuantos casos manejas por semana/mes? Picos de temporada?
+23. Cuanto dura tu proceso de punta a punta (minimo, promedio, peor caso)?
+24. Que mides hoy? Que reportas a gerencia, cada cuanto y como lo armas?
+
+DOLORES Y HANDOFFS
+25. Cuales son tus 3 mayores frustraciones con la informacion que recibes
+    o entregas?
+26. Con que area tienes mas friccion y por que?
+27. Si pudieras pedir UN cambio magico para tu trabajo, cual seria?
+28. Que informacion te gustaria tener y hoy no tienes (o tienes tarde)?
+
+
+==============================================================================
+AREA 1: COMERCIAL / VENTAS
+==============================================================================
+29. Como entra un lead (referido, web, feria, contacto directo)? Donde se
+    registra?
+30. Como se levanta la especificacion del food trailer/contenedor? Hay un
+    formato? Quien lo llena?
+31. En que momento exacto un lead pasa de prospecto a oportunidad a proyecto
+    en firme? Quien autoriza cada salto?
+32. Para cotizar: de donde sacas el costo estimado y el tiempo de
+    fabricacion? Lo pides a Produccion/Ingenieria o lo estimas tu?
+33. Cuantas versiones de cotizacion suele tener un proyecto? Como controlas
+    la version vigente?
+34. Como manejas los cambios de especificacion que pide el cliente despues
+    de cotizar o cerrar? A quien avisas y como?
+35. Que define el cierre (contrato firmado, anticipo recibido)? Como se lo
+    comunicas a Produccion, Compras y Finanzas?
+36. Llevas pipeline/embudo? Donde? Como sabe gerencia cuanto hay por cerrar?
+37. Postventa: quien atiende reclamos/garantias del cliente y como se
+    registra?
+38. Exportacion: que datos del cliente extranjero necesitas y quien los usa
+    despues?
+
+
+==============================================================================
+AREA 2: DISENO / INGENIERIA
+(validar primero si es area formal o vive dentro de Produccion/Ventas)
+==============================================================================
+39. Quien convierte la especificacion de venta en diseno y planos? Con que
+    software?
+40. Como se genera la lista de materiales (BOM)? En Excel, ERP, a mano?
+    Quien la valida?
+41. La BOM incluye cantidades, especificaciones de acero inox, componentes
+    importados, consumibles?
+42. Como le pasas la BOM a Compras y la ruta de fabricacion a Produccion?
+    Mismo documento o cada uno por su lado?
+43. Reutilizan disenos de proyectos anteriores o cada uno arranca de cero?
+    Hay biblioteca de disenos?
+44. Como se controla la version del diseno cuando el cliente pide cambios?
+    Como se entera Compras/Produccion?
+45. Quien define el costo objetivo del proyecto y como se compara luego
+    contra el real?
+
+
+==============================================================================
+AREA 3: COMPRAS / IMPORTACION
+==============================================================================
+46. Como recibes lo que hay que comprar (BOM, requisicion, correo, verbal)?
+    Quien lo autoriza?
+47. Tienes maestro de proveedores? Donde? Que % compras locales vs
+    importadas?
+48. Ciclo de importacion paso a paso: cotizacion proveedor -> OC -> pago ->
+    embarque -> aduana -> recepcion. Cuanto dura cada etapa?
+49. Donde se atasca mas seguido la importacion (proveedor, naviera, aduana,
+    pago, agente)?
+50. Como registras el costo real del material (incluyendo flete, aduana,
+    impuestos)? Quien lo necesita despues?
+51. Llevas inventario de materiales? En que sistema? Es confiable vs lo
+    fisico?
+52. Como sabe Produccion que el material para su proyecto ya llego? Como le
+    avisas?
+53. Que pasa cuando Produccion necesita algo urgente que no esta? Compra de
+    emergencia?
+54. Asocias cada compra a un proyecto o se compra al monton? Como separas
+    material por proyecto?
+55. Como coordinas con Finanzas los pagos a proveedores y anticipos de
+    importacion?
+
+
+==============================================================================
+AREA 4: PRODUCCION
+==============================================================================
+56. Como recibes la orden de fabricacion? Que informacion trae y que te
+    falta seguido?
+57. Etapas de fabricacion (corte, soldadura inox, ensamble, acabado): quien
+    hace que y como se pasa el trabajo entre etapas?
+58. Como se programa la produccion (que proyecto va primero)? Quien decide
+    la prioridad?
+59. Como registras el avance de cada proyecto (%, fotos, parte diario,
+    nada)? Donde?
+60. Como registras el consumo real de material y las horas-hombre por
+    proyecto? O no se registra?
+61. Control de calidad: quien revisa, con que checklist, que pasa con una
+    no conformidad?
+62. Como manejas un cambio de especificacion que llega con el proyecto ya
+    empezado?
+63. Que informacion le das a Ventas para que actualice al cliente sobre su
+    pedido?
+64. Como declaras producto terminado y se lo pasas a Logistica/Exportacion?
+65. Que necesitas de RRHH (personal, turnos) y como lo pides?
+
+
+==============================================================================
+AREA 5: FINANZAS / CONTABILIDAD / ADMIN
+==============================================================================
+66. Cual es el ERP/sistema contable exacto (nombre y version)? Que modulos
+    usan y cuales no?
+67. El ERP permite costear por proyecto (ingresos vs costos de ese
+    proyecto)? Lo usan asi?
+68. Como se factura (anticipo, hitos, contra entrega, exportacion)? Quien
+    dispara la factura y con que informacion?
+69. Como entra a Finanzas el costo real de materiales (Compras), mano de
+    obra (RRHH) y logistica?
+70. Cobranza: como se le da seguimiento? Como sabe Ventas/Gerencia que esta
+    por cobrar?
+71. Pagos a proveedores e importaciones: como se priorizan? Quien aprueba?
+72. Flujo de caja: como se proyecta hoy? Con cuanta anticipacion se ve un
+    problema de liquidez?
+73. Exportacion: que documentos financieros genera y quien los necesita?
+74. Que reportes le entregas al CEO, cada cuanto y cuanto trabajo manual te
+    cuesta armarlos?
+75. Que datos de otras areas recibes tarde, incompletos o no cuadran al
+    cerrar el mes?
+
+
+==============================================================================
+AREA 6: RECURSOS HUMANOS
+==============================================================================
+76. Como se registra asistencia y horas del personal de planta (reloj,
+    papel, Excel)?
+77. Se asignan horas-hombre a un proyecto especifico?
+78. Como se calcula la nomina y con que sistema? Se conecta con Finanzas o
+    se reescribe?
+79. Como se gestionan los requerimientos de personal de Produccion
+    (contratar, turnos extra)?
+80. Capacitacion/certificaciones (ej. soldadores inox): se controla? Donde?
+81. Rotacion/ausentismo: se mide? Afecta los tiempos de los proyectos?
+82. Que informacion de RRHH necesita Finanzas y Produccion, y como se las
+    entregas hoy?
+
+
+==============================================================================
+AREA 7: GERENCIA / CEO  (entrevista contigo + el CEO)
+==============================================================================
+83. Cuales son los 5 numeros que el CEO quiere ver TODOS los dias? Y
+    semanal/mensual?
+84. Que decision importante se ha tomado tarde o mal por falta de
+    informacion?
+85. Cual es la prioridad del negocio este ano (crecer, exportar mas,
+    margenes, ordenar)?
+86. Como se sabe hoy si un proyecto fue rentable? Cuanto despues de
+    entregarlo?
+87. Que reportes recibe hoy, quien los arma, y confia en esos numeros?
+88. Cual es la restriccion real del negocio: vender mas, producir mas
+    rapido, capital de trabajo?
+
+
+==============================================================================
+AREA 8: SERVICIO AL CLIENTE / POSTVENTA
+(Critico en empresa exportadora: cliente lejos, soporte a distancia,
+ la reputacion viaja por resenas)
+==============================================================================
+89. Como entra una solicitud del cliente (correo, WhatsApp, telefono,
+    formulario web, ticket)? Donde se registra?
+90. Que tipos de solicitudes manejas (consulta de estado, reclamo, garantia,
+    repuesto, soporte tecnico, capacitacion)? % aproximado de cada uno?
+91. Como atiendes clientes en el extranjero (idioma, zona horaria, soporte
+    remoto, viajes tecnicos)?
+92. Cual es tu SLA de respuesta y de resolucion? Se mide o solo se siente?
+93. Cuando una solicitud requiere a otra area (Produccion, Ingenieria,
+    Ventas, Repuestos), como escalas y como sabes que se atendio?
+94. Garantia: que cubre, por cuanto tiempo, como se documenta el alcance al
+    cerrar la venta? El cliente recibe constancia escrita?
+95. En un reclamo de garantia: como se diagnostica a distancia (fotos,
+    video, manual)? Quien decide si procede? Como se cubren los costos
+    (envio de repuesto, viaje tecnico)?
+96. Repuestos: existe catalogo? Como se cotiza, factura y envia al exterior?
+    Hay stock o se manda fabricar?
+97. Hay un canal formal para que los reclamos recurrentes (defectos que se
+    repiten) lleguen a Produccion/Ingenieria y se corrija el diseno o
+    proceso?
+98. Como se mide la satisfaccion del cliente (encuestas, resenas, NPS,
+    nada)?
+99. Que herramienta usas para gestionar tickets/solicitudes (helpdesk, CRM,
+    Excel, solo correo)?
+100. Cuando un cliente llama, que informacion del proyecto necesitas tener
+     a la mano (specs, planos, lote, fecha de entrega, garantia vigente)?
+     La tienes facil o la buscas?
+
+
+==============================================================================
+AREA 9: LOGISTICA / EXPORTACION
+(Donde el proyecto se convierte en dinero entregado: un error aqui cuesta
+ multas, demoras y reclamos del cliente final)
+==============================================================================
+101. Como te enteras de que un proyecto esta listo para embarcar? Quien te
+     avisa y con cuanta antelacion?
+102. Que documentos de exportacion preparas (factura comercial, packing
+     list, certificado de origen, BL/AWB, certificado sanitario si aplica)?
+     Quien los genera y quien los firma?
+103. Que Incoterm se usa por defecto (FOB, CIF, DAP, etc.)? Varia por
+     cliente/destino?
+104. Como se elige al agente de carga / forwarder / naviera? Hay maestro de
+     proveedores logisticos?
+105. Como se coordinan los tiempos: fecha disponible en planta vs fecha de
+     booking/zarpe?
+106. Que pasa si el producto no llega a tiempo al puerto (booking perdido,
+     multas, reprogramacion)?
+107. Empaque para exportacion: como se prepara (madera tratada IPPC,
+     trincado dentro del contenedor, flat-rack si excede medidas,
+     fumigacion)? Quien lo hace, planta o un tercero?
+108. Aduana de exportacion: como se gestiona? Hay agente aduanal? Cuanto
+     tarda?
+109. Seguros de carga: quien los contrata y como se documentan?
+110. Como se hace el tracking del embarque y como se informa al cliente la
+     fecha estimada de llegada?
+111. Como entra el costo real de logistica (flete, seguro, agente, aduana)
+     a Finanzas para cerrar el costo del proyecto?
+112. Danos o incidentes en transito: con que frecuencia? Como se reclama al
+     seguro o naviera?
+113. Que herramienta/sistema usas (Excel, modulo del ERP, plataforma de la
+     naviera, correo)?
+
+
+==============================================================================
+DESPUES DE CADA ENTREVISTA - ANOTAR RAPIDO
+==============================================================================
+AREA: ______________  ENTREVISTADO: ______________  FECHA: __________
+
+TOP 3 DOLORES:
+ 1. ______________________________________________________________
+ 2. ______________________________________________________________
+ 3. ______________________________________________________________
+
+SISTEMAS QUE MENCIONO: ___________________________________________
+
+USA ID DE PROYECTO/CLIENTE COMUN?  SI / NO   Cual: ______________
+
+HANDOFF MAS PROBLEMATICO (con que area): _________________________
+
+DOCUMENTOS QUE ENTREGO COPIA: ____________________________________
+
+==============================================================================
+FIN DEL CUESTIONARIO - v1
+==============================================================================
